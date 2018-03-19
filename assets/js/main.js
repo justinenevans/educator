@@ -13,7 +13,7 @@ jQuery(document).ready(function($){
 			resizing = false,
 			mq = checkMQ(),
 			svgCircleLength = parseInt(Math.PI*(articleSidebarLinks.eq(0).find('circle').attr('r')*2));
-		
+
 		// check media query and bind corresponding events
 		if( mq == 'desktop' ) {
 			$(window).on('scroll', checkRead);
@@ -33,12 +33,12 @@ jQuery(document).ready(function($){
 			$(window).off('scroll', checkRead);
 
 			$('body,html').animate(
-				{'scrollTop': selectedArticleTop + 2}, 
+				{'scrollTop': selectedArticleTop + 2},
 				300, function(){
 					checkRead();
 					$(window).on('scroll', checkRead);
 				}
-			); 
+			);
 	    });
 	}
 
@@ -68,7 +68,7 @@ jQuery(document).ready(function($){
 		mq = checkMQ();
 		$(window).off('scroll', checkRead);
 		$(window).off('scroll', checkSidebar);
-		
+
 		if( mq == 'desktop') {
 			$(window).on('scroll', checkRead);
 			$(window).on('scroll', checkSidebar);
@@ -107,7 +107,8 @@ jQuery(document).ready(function($){
 
 		if( scrollTop < articlesWrapperTop) {
 			aside.removeClass('fixed').attr('style', '');
-		} else if( scrollTop >= articlesWrapperTop && scrollTop < articlesWrapperTop + articlesWrapperHeight - windowHeight) {
+		// } else if( scrollTop >= articlesWrapperTop && scrollTop < articlesWrapperTop + articlesWrapperHeight - windowHeight) {
+		} else if( scrollTop >= articlesWrapperTop && scrollTop < articlesWrapperTop + articlesWrapperHeight * 2) {
 			aside.addClass('fixed').attr('style', '');
 		} else {
 			var articlePaddingTop = Number(articles.eq(1).css('padding-top').replace('px', ''));
