@@ -17,7 +17,7 @@ tags: [Holidays, Hawaii]
 
 <div class="cd-articles">
 	<article>
-		<header>
+		<header style="margin-top: 100px;">
       <img src="img/img-1.png" alt="article image">
 			<h1>Programming 1</h1>
 		</header>

@@ -1446,3 +1446,32 @@ a.newer-posts:hover {
     font-size: 21px;
   }
 }
+
+
+/* - - - - - - - - - - Justine: Sidebar - - - - - - - - - - */
+.site-nav .sidebar-links {
+  position: relative;
+  color: #333030;
+  font-weight: 400;
+  font-size: 12px;
+  margin: 0 0 5px;
+  text-transform: uppercase;
+  text-align: center;
+  overflow: hidden;
+  -webkit-transition: all .35s ease;
+  -o-transition: all .35s ease;
+  transition: all .35s ease;
+  /*-webkit-box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
+          box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);*/
+}
+.site-nav a {
+  text-decoration: none;
+}
+.sidebar-links:hover {
+  font-weight: 600;
+  -webkit-transform: scale(.9);
+      -ms-transform: scale(.9);
+          transform: scale(.9);
+  /*-webkit-box-shadow: 0 15px 45px -10px rgba(10, 16, 34, 0.2);
+          box-shadow: 0 15px 45px -10px rgba(10, 16, 34, 0.2);*/
+}

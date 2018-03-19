@@ -9,7 +9,13 @@ layout: default
         <a href="{{site.baseurl}}/"><img src="{{site.baseurl}}/assets/img/{% if site.author-img %}{{site.author-img}}{% endif %}" alt="{{site.author}}"></a>
       </div>
       <div class="author-name">{{site.author}}</div>
-      <p>{{site.about-author}}</p>
+      <!--<p>{{site.about-author}}</p>-->
+      <section class="site-nav">
+        <h2 class="sidebar-links"><a href="{{ site.url }}{{ site.baseurl }}/about/">About</a></h2>
+        <h2 class="sidebar-links"><a href="{{ site.url }}{{ site.baseurl }}/statement/">Statement</a></h2>
+        <h2 class="sidebar-links"><a href="{{ site.url }}{{ site.baseurl }}/metrics/">Metrics & Reviews</a></h2>
+        <h2 class="sidebar-links"><a href="{{ site.url }}{{ site.baseurl }}/gallery/">Gallery of Student Work</a></h2>
+      </section>
     </div>
   </header> <!-- End Header -->
   <footer>
@@ -25,6 +31,16 @@ layout: default
           <li><a href="https://facebook.com/{{ site.social-facebook }}" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
         {% else %}
           <li><a href="https://facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+        {% endif %}-->
+        {% if site.social-vimeo %}
+          <li><a href="https://vimeo.com/{{ site.social-vimeo }}" target="_blank"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
+        {% else %}
+          <li><a href="https://vimeo.com/" target="_blank"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
+        {% endif %}
+        <!--{% if site.social-youtube %}
+          <li><a href="https://www.youtube.com/{{ site.social-youtube }}" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+        {% else %}
+          <li><a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
         {% endif %}-->
         {% if site.website %}
           <li class="website"><a href="http://justinenevans.com" target="_blank"><i class="fa fa-globe"></i></a></li>
