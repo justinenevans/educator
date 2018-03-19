@@ -1466,6 +1466,7 @@ a.newer-posts:hover {
 }
 .site-nav a {
   text-decoration: none;
+  color: inherit;
 }
 .sidebar-links:hover {
   font-weight: 600;

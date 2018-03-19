@@ -19,7 +19,8 @@ Primary style
 }*/
 
 a {
-  color: #2a76e8;
+  /*color: #2a76e8;*/
+  color: #178e94;
   text-decoration: none;
 }
 
@@ -68,7 +69,8 @@ download button
   display: inline-block;
   padding: 1.2em 1.6em;
   border-radius: 50em;
-  background: #2a76e8;
+  /*background: #2a76e8;*/
+  background: #178e94;
   font-size: 14px;
   color: #ffffff;
   margin-top: 1em;
@@ -166,7 +168,8 @@ Aside
   position: absolute;
   /*left: 0;*/
   left: -20px;
-  background-color: #f2f2f2;
+  /*background-color: #f2f2f2;*/
+  background-color: #fbfbfb;
   line-height: 1rem;
 }
 .cd-read-more li {
@@ -227,7 +230,8 @@ Aside
   background-color: #d9d9d9;
 }
 .cd-read-more a.reading em {
-  color: #2a76e8;
+  /*color: #2a76e8;*/
+  color: #178e94;
 }
 .cd-read-more a.reading svg {
   display: block;
@@ -272,7 +276,8 @@ Aside
   -o-transform: translateY(-50%);
   transform: translateY(-50%);
   left: 1.1em;
-  stroke: #2a76e8;
+  /*stroke: #2a76e8;*/
+  stroke: #178e94;
 }
 @media only screen and (min-width: 800px) {
   .cd-read-more {
