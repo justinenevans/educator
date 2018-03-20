@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/educator/welcome-to-jekyll/</loc>
+<loc>http://localhost:4000/educator/graphic-art/</loc>
 <lastmod>2017-04-06T04:32:20-06:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/educator/conference-on-javascript/</loc>
+<loc>http://localhost:4000/educator/web-design/</loc>
 <lastmod>2017-09-09T15:00:00-06:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/educator/10-tips-to-improve-your-workflow/</loc>
+<loc>http://localhost:4000/educator/game-art/</loc>
 <lastmod>2017-09-11T15:00:00-06:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/educator/how-to-start-programming/</loc>
+<loc>http://localhost:4000/educator/ux-design/</loc>
 <lastmod>2017-09-11T15:00:00-06:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/educator/the-best-organizer-software/</loc>
+<loc>http://localhost:4000/educator/web-dev/</loc>
 <lastmod>2017-09-11T15:00:00-06:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/educator/how-i-rest-from-work/</loc>
+<loc>http://localhost:4000/educator/game-prog/</loc>
 <lastmod>2017-09-12T04:32:20-06:00</lastmod>
 </url>
 <url>
