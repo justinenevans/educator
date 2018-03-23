@@ -73,10 +73,14 @@ hr {
   -webkit-box-sizing: content-box;
           box-sizing: content-box;
   /* 1 */
-  height: 0;
+  /*height: 0;*/
+  height: 1px;
   /* 1 */
   overflow: visible;
   /* 2 */
+  border: 0;
+  border-top: 1px solid #178e94;
+  margin: 4em 0;
 }
 
 /**
@@ -812,39 +816,44 @@ pre code {
 
 table {
   border: 1px solid #aaa;
-  background-color: #eee;
+  background-color: #fafafa;
   width: 100%;
   text-align: left;
   border-collapse: collapse;
+  table-layout: fixed;
+  margin-top: 40px;
 }
 
 table td, table.blueTable th {
-  border: 1px solid #aaa;
+  border-bottom: 1px solid #aaa;
   padding: 3px 2px;
 }
 
 table tbody td {
-  font-size: 13px;
+  font-size: 12px;
 }
 
 table tr:nth-child(even) {
-  background: #adbecc;
+  background: #ecf0f1;
 }
 
 table thead {
-  background: #a9c4d1;
-  background: -webkit-gradient(linear, left top, left bottom, from(#bed3dc), color-stop(66%, #b1cad5), to(#A9C4D1));
+  background: ;
+  /*background: -webkit-gradient(linear, left top, left bottom, from(#bed3dc), color-stop(66%, #b1cad5), to(#A9C4D1));
   background: -webkit-linear-gradient(top, #bed3dc 0%, #b1cad5 66%, #A9C4D1 100%);
   background: -o-linear-gradient(top, #bed3dc 0%, #b1cad5 66%, #A9C4D1 100%);
-  background: linear-gradient(to bottom, #bed3dc 0%, #b1cad5 66%, #A9C4D1 100%);
-  border-bottom: 1px solid #8c8c8c;
+  background: linear-gradient(to bottom, #bed3dc 0%, #b1cad5 66%, #A9C4D1 100%);*/
+  border-bottom: 1px solid #8c8c8c
 }
 
 table thead th {
+  color: #333030;
+  font-weight: 600;
   font-size: 14px;
-  font-weight: bold;
-  color: #fff;
-  border-left: 1px solid #d0e4f5;
+  text-transform: uppercase;
+  color: ;
+  background-color: #fff;
+  /*border-bottom: 1px solid #aaa;*/
 }
 
 table thead th:first-child {
@@ -859,7 +868,7 @@ table tfoot {
   background: -webkit-gradient(linear, left top, left bottom, from(#dcebf7), color-stop(66%, #d4e6f6), to(#D0E4F5));
   background: -webkit-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
   background: -o-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
-  background: linear-gradient(to bottom, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+  background: linear-gradient(to bottom, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);*/
   border-top: 2px solid #444;
 }
 
@@ -1470,9 +1479,58 @@ a.newer-posts:hover {
 }
 .sidebar-links:hover {
   font-weight: 600;
-  -webkit-transform: scale(.9);
+  -webkit-transform: scale3d(0.9, 0.9, 1);
+          transform: scale3d(0.9, 0.9, 1);
+  /*-webkit-transform: scale(.9);
       -ms-transform: scale(.9);
-          transform: scale(.9);
+          transform: scale(.9);*/
   /*-webkit-box-shadow: 0 15px 45px -10px rgba(10, 16, 34, 0.2);
           box-shadow: 0 15px 45px -10px rgba(10, 16, 34, 0.2);*/
+}
+
+
+
+/* - - - - - - - - - - Justine: Alt Headings - - - - - - - - - - */
+.content-break {
+  font-family: 'PT Serif', serif;
+  margin: 0 0 10px;
+  position: relative;
+  padding-bottom: 15px;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #333030;
+  font-weight: 700;
+  text-align: center;
+}
+
+.content-break::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: 0;
+  display: block;
+  width: 7px;
+  height: 7px;
+  -webkit-border-radius: 100%;
+          border-radius: 100%;
+  background-color: #515151;
+}
+
+
+.dot {
+  content: "";
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: 0;
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  -webkit-border-radius: 100%;
+          border-radius: 100%;
+  background-color: #515151;
+  margin: 10px;
 }

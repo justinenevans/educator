@@ -25,7 +25,7 @@ social-youtube: channel/UCLQGKfv62jlWbsx_W_dZ3pQ
 discus-identifier:  # add your discus identifier
 
 # Tracker
-analytics: # Google Analytics
+analytics: UA-75086195-6 # Google Analytics
 
 # Build Settings
 markdown: kramdown
@@ -38,3 +38,4 @@ paginate: 8
 paginate_path: "/page/:num"
 
 exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
+include: ['_pages']

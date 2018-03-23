@@ -28,6 +28,9 @@
 <loc>http://localhost:4000/educator/about/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/educator/cv/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/educator/gallery/</loc>
 </url>
 <url>

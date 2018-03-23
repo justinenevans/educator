@@ -14,12 +14,67 @@ tags: [Holidays, Hawaii]
 <script src="../assets/js/modernizr.js"></script>
 
 
+<h2>Proposed Academic Plan</h2>
+<p><i>The following is a proposal for an emphasis in programming. This does not have to be considered a separate track, but a chosen area-of-study for developers in a Digital Design or Creative Technologies major.</i></p>
+
+<table>
+  <thead>
+    <th>Year One</th>
+    <th>Year Two</th>
+    <th>Year Three</th>
+		<th>Year Four</th>
+  </thead>
+	<tbody>
+	  <tr>
+	    <td>Psychology of Play <i class="fa fa-gamepad" aria-hidden="true"></i></td>
+			<td>Visual Storytelling <i class="fa fa-gamepad" aria-hidden="true"></i>
+</td>
+			<td>Unity 1</td>
+			<td>Interaction Design</td>
+	  </tr>
+	  <tr>
+		 	<td>Creative Coding 1</td>
+	    <td>Game Making <i class="fa fa-gamepad" aria-hidden="true"></i></td>
+			<td>Unity 2</td>
+			<td>Internship Dev Studio</td>
+	  </tr>
+	  <tr>
+			<td>Creative Coding 2</td>
+			<td><!--Row 3 - Col 2--></td>
+			<td><!--Row 3 - Col 3--></td>
+			<td><!--Row 3 - Col 4--></td>
+	  </tr>
+	  <tr>
+			<td>t<!--Row 4 - Col 1--></td>
+			<td>t<!--Row 4 - Col 2--></td>
+			<td>t<!--Row 4 - Col 3--></td>
+			<td>t<!--Row 4 - Col 4--></td>
+	  </tr>
+	</tbody>
+</table>
+
+<section id="key" style="font-size: 10px; margin-top: 10px;">
+	<span style="margin-right: 10px;">Also referenced in:</span>
+	<ul style="display: inline;">
+		<li style="list-style-type: none; display: inline; margin-right: 10px;"><i class="fa fa-gamepad" aria-hidden="true"></i> = Game Art</li>
+		<li style="list-style-type: none; display: inline; margin-right: 10px;"><i class="fa fa-gears" aria-hidden="true"></i> = Game Development</li>
+		<li style="list-style-type: none; display: inline; margin-right: 10px;"><i class="fa fa-paint-brush" aria-hidden="true"></i> = Graphic Arts</li>
+		<li style="list-style-type: none; display: inline; margin-right: 10px;"><i class="fa fa-columns" aria-hidden="true"></i> = Web Design</li>
+		<li style="list-style-type: none; display: inline; margin-right: 10px;"><i class="fa fa-code" aria-hidden="true"></i> = Web Development</li>
+		<li style="list-style-type: none; display: inline; margin-right: 10px;"><i class="fa fa-users" aria-hidden="true"></i> = UX Design</li>
+	</ul>
+</section>
+
+<hr>
+
+<h2>Proposed Course Contents</h2>
+<p>test</p>
 
 <div class="cd-articles">
 	<article>
 		<header style="margin-top: 100px;">
-      <img src="img/img-1.png" alt="article image">
-			<h1>Programming 1</h1>
+			<!--<img src="img/img-1.png" alt="article image">-->
+			<h3>Programming 1</h3>
 		</header>
 
 		<p>
@@ -44,8 +99,7 @@ tags: [Holidays, Hawaii]
 
 	<article>
 		<header>
-			<img src="img/img-1.png" alt="article image">
-			<h1>Plaid ramps kitsch woke pork belly</h1>
+			<h3>Plaid ramps kitsch woke pork belly</h3>
 		</header>
 
 		<p>
@@ -70,8 +124,7 @@ tags: [Holidays, Hawaii]
 
 	<article>
 		<header>
-			<img src="img/img-1.png" alt="article image">
-			<h1>Game Design</h1>
+			<h3>Game Design</h3>
 		</header>
 
 		<p>
@@ -96,8 +149,7 @@ tags: [Holidays, Hawaii]
 
 	<article>
 		<header>
-			<img src="img/img-1.png" alt="article image">
-			<h1>Theory</h1>
+			<h3>Theory</h3>
 		</header>
 
 		<p>
