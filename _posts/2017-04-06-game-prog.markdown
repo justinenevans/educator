@@ -9,9 +9,6 @@ tags: [Holidays, Hawaii]
 
 <link rel="stylesheet" href="../assets/css/reset.css">
 <link rel="stylesheet" href="../assets/css/progress.css">
-<script src="../assets/js/jquery-2.1.4.js"></script>
-<script src="../assets/js/main.js"></script>
-<script src="../assets/js/modernizr.js"></script>
 
 
 <h2>Proposed Academic Plan</h2>

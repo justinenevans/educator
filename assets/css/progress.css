@@ -293,5 +293,11 @@ Aside
     /*left: 280px;*/
     left: 260px;
     top: 0;
+    border-bottom: 1px solid #178e94;
+    -webkit-transform: translate(0px, -2px);
+    -ms-transform: translate(0px, -2px);
+        transform: translate(0px, -2px);
+    -webkit-box-shadow: 0 15px 45px -10px rgba(10, 16, 34, 0.2);
+            box-shadow: 0 15px 45px -10px rgba(10, 16, 34, 0.2);
   }
 }
