@@ -1157,7 +1157,8 @@ footer .copyright {
 .post .post-content .post-title a {
   font-family: 'PT Serif', serif;
   text-decoration: none;
-  color: #263959;
+  /*color: #263959;*/
+  color: #178E94;
 }
 
 .post .post-content p {
@@ -1253,7 +1254,8 @@ a.newer-posts:hover {
   border: 1px solid #ecf0f1;
   padding: 5px 10px;
   margin-left: 5px;
-  color: #263959;
+  /*color: #263959;*/
+  color: #178E94;
   font-size: 12px;
   -webkit-transition: background-color .3s;
   -o-transition: background-color .3s;
@@ -1273,9 +1275,11 @@ a.newer-posts:hover {
   font-size: 10px;
   padding: 5px 10px;
   margin-left: 5px;
-  color: #263959;
+  /*color: #263959;*/
+  color: #178E94;
   text-transform: uppercase;
-  border: 1px solid #263959;
+  /*border: 1px solid #263959;*/
+  border: 1px solid #178E94;
 }
 
 .page-footer .page-tag a:hover {
@@ -1293,11 +1297,13 @@ a.newer-posts:hover {
   font-size: 30px;
   text-align: center;
   line-height: 1.3;
-  color: #263959;
+  /*color: #263959;*/
+  color: #178E94;
 }
 
 .blog-tags h2 {
-  color: #263959;
+  /*color: #263959;*/
+  color: #178E94;
   margin: 10px 0;
 }
 
@@ -1314,7 +1320,8 @@ a.newer-posts:hover {
 
 .tags li a {
   text-decoration: none;
-  color: #263959;
+  /*color: #263959;*/
+  color: #178E94;
   display: inline-block;
   padding: 5px 10px;
   border: 1px solid #ecf0f1;
@@ -1330,7 +1337,8 @@ a.newer-posts:hover {
 
 .tag-list span a {
   text-decoration: none;
-  color: #263959;
+  /*color: #263959;*/
+  color: #178E94;
 }
 
 .tag-list span a:hover {

@@ -1,24 +1,23 @@
-title: Hello, I'm Justine
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+title: Hello, I'm Justine.
+description: >
+  Onlne educator in the digital arts.
 permalink: ':title/'
-baseurl: "/educator" # the subpath of your site, e.g. /blog
-url: "https://justinenevans.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-site-twitter: #if your site has a twitter account, enter it here
+baseurl: "/educator"
+url: "https://justinenevans.github.io"
+site-twitter:
 
 # Author Settings
-author: Justine Evans # add your name
-author-img: justine-evans.svg # add your photo
-about-author: Media craftswoman. Web designer, illustrator, and research enthusiast. Lover of digital design and graphic arts. <br /><br />Amateur astronomer, classical flutist, gamer, and terrible cook. # add description
-social-twitter: # add your Twitter handle
-social-facebook: # add your Facebook handle
-social-github: JustineEvansUM # add your Github handle
-social-linkedin: justineevans
+author: Justine Evans
+author-img: justine-evans.svg
+about-author: Graphics, Web, and Instructional Design
 social-email: justine.n.evans@gmail.com
-social-website: justinenevans.com
+social-codepen: Media-Ed-Online
+social-facebook:
+social-github: media-ed-online
+social-linkedin: justineevans
+social-twitter:
 social-vimeo: mediaedonline
+social-website: justinenevans.com
 social-youtube: channel/UCLQGKfv62jlWbsx_W_dZ3pQ
 
 # Disqus
