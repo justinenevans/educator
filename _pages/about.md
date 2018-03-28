@@ -8,9 +8,9 @@ tags: tag
 permalink: "/about/"
 ---
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-<link rel="stylesheet" href="../assets/css/sass/gallery.sass">
-<link rel="stylesheet" href="../assets/css/gallery.css">
+
+<link rel="stylesheet" href="../assets/css/sass/gallery2.sass">
+<link rel="stylesheet" href="../assets/css/gallery2.css">
 
 <p>
   Fam locavore snackwave bushwick +1 sartorial. Selfies portland knausgaard synth. Pop-up art party marfa deep v pitchfork subway tile 3 wolf moon. Ennui pinterest tumblr yr, adaptogen succulents copper mug twee. Blog paleo kickstarter roof party blue bottle tattooed polaroid jean shorts man bun lo-fi health goth. Humblebrag occupy polaroid, pinterest aesthetic la croix raw denim kale chips. 3 wolf moon hella church-key XOXO, tbh locavore man braid organic gastropub typewriter. Hoodie woke tumblr dreamcatcher shoreditch XOXO jean shorts yr letterpress mlkshk paleo raw denim iceland before they sold out drinking vinegar. Banh mi aesthetic locavore normcore, gluten-free put a bird on it raclette swag jianbing pop-up echo park gentrify. Stumptown brooklyn godard tumeric ethical. Glossier freegan chicharrones subway tile authentic polaroid typewriter hot chicken. Thundercats small batch heirloom meggings.
@@ -30,78 +30,42 @@ permalink: "/about/"
   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa eaque error quos consequuntur totam, esse commodi magnam dignissimos explicabo modi. Laborum temporibus enim eius quidem eum voluptatum eligendi. Nemo fuga at provident accusantium tempore eligendi alias sed! Provident veritatis adipisci deserunt. Totam repudiandae ducimus nemo aperiam assumenda. Odio quos, quam quod illum reiciendis sapiente doloremque quasi deserunt alias provident! Labore voluptatibus excepturi, ipsum et sint nihil delectus enim, commodi quis!
 </p>
 
-<div id="media-artist-top" style="margin: -50px 0px"></div>
-<section class="gallery">
-	<div class="row">
-		<ul>
-			<a href="#" class="close"></a>
-			<li>
-				<a href="#media-artist-item01">
-					<img src="https://d13yacurqjgara.cloudfront.net/users/22177/screenshots/1474358/respecthustle-bearfight-jeremiahbritton-.png" alt="">
-				</a>
-			</li>
-
-			<li>
-				<a href="#media-artist-item02">
-					<img src="https://d13yacurqjgara.cloudfront.net/users/22177/screenshots/1514374/essentialswallpaperdribbble-jeremiahbritton.jpg" alt="">
-				</a>
-			</li>
-
-			<li>
-				<a href="#media-artist-item03">
-					<img src="https://d13yacurqjgara.cloudfront.net/users/22177/screenshots/1502114/upatnight-city-jb.png" alt="">
-				</a>
-			</li>
-			<li>
-				<a class="image" href="#media-artist-item04">
-					<img src="https://d13yacurqjgara.cloudfront.net/users/22177/screenshots/1483213/dog-jeremiahbritton.jpg" alt="">
-				</a>
-			</li>
-		</ul>
-	</div> <!-- / row -->
-
-	<!-- Item 01 -->
-	<div id="media-artist-item01" class="port">
-		<div class="row">
-			<div class="description">
-				<h1>Item 01</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis libero erat. Integer ac purus est. Proin erat mi, pulvinar ut magna eget, consectetur auctor turpis.</p>
-			</div>
-				<img src="https://d13yacurqjgara.cloudfront.net/users/22177/screenshots/1379781/winterletters-jeremiahbritton-dribbble.png" alt="">
-			</div>
-		</div>
-
-    <!-- Item 02 -->
-    <div id="media-artist-item02" class="port">
-      <div class="row">
-        <div class="description">
-          <h1>Item 01</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis libero erat. Integer ac purus est. Proin erat mi, pulvinar ut magna eget, consectetur auctor turpis.</p>
-        </div>
-          <img src="https://d13yacurqjgara.cloudfront.net/users/22177/screenshots/1379781/winterletters-jeremiahbritton-dribbble.png" alt="">
-        </div>
+<div class="message">
+Sorry, your browser does not support CSS Grid. 😅
+</div>
+<section class="section">
+<div class="grid">
+  <a href="#img1" class="item" style="background: url('http://localhost:4000/educator/assets/img/justine-evans.svg');">
+      <div class="item__details">
+        jelly-o brownie sweet
       </div>
+  </a>
+  <a href="#img2" class="item item--medium">
+      <div class="item__details">
+        Muffin jelly gingerbread
+      </div>
+  </a>
+  <div class="item item--large">
+    <div class="item__details">
+      sesame snaps chocolate
+    </div>
+  </div>
+  <div class="item">
+    <div class="item__details">
+      Oat cake
+    </div>
+  </div>
+</div>
 
-      <!-- Item 03 -->
-      <div id="media-artist-item03" class="port">
-        <div class="row">
-          <div class="description">
-            <h1>Item 01</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis libero erat. Integer ac purus est. Proin erat mi, pulvinar ut magna eget, consectetur auctor turpis.</p>
-          </div>
-            <img src="https://d13yacurqjgara.cloudfront.net/users/22177/screenshots/1379781/winterletters-jeremiahbritton-dribbble.png" alt="">
-          </div>
-        </div>
-
-        <!-- Item 04 -->
-        <div id="media-artist-item04" class="port">
-          <div class="row">
-            <iframe src="https://player.vimeo.com/video/96359735" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-            </div>
-          </div>
-
-</section>
 <!--<img src="../assets/img/editing.png" width="100%" />-->
+<a href="#_" class="lightbox" id="img1">
+<div class='embed-container'><iframe src='https://www.youtube.com/embed/QILiHiTD3uc' frameborder='0' allowfullscreen></iframe></div>
+</a>
+
+<a href="#_" class="lightbox" id="img2">
+<img src="https://images.unsplash.com/photo-1422255198496-21531f12a6e8?dpr=2&auto=format&fit=crop&w=1500&h=996&q=80&cs=tinysrgb&crop=" />
+</a>
+
 
 <hr />
 
