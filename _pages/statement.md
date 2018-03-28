@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Teaching Statement
+title: Statements of Purpose
 date:
 description:
 img:
@@ -8,12 +8,15 @@ tags: tag
 permalink: "/statement/"
 ---
 
+<h2>Artist's Statement</h2>
 <p>
   Fam locavore snackwave bushwick +1 sartorial. Selfies portland knausgaard synth. Pop-up art party marfa deep v pitchfork subway tile 3 wolf moon. Ennui pinterest tumblr yr, adaptogen succulents copper mug twee. Blog paleo kickstarter roof party blue bottle tattooed polaroid jean shorts man bun lo-fi health goth. Humblebrag occupy polaroid, pinterest aesthetic la croix raw denim kale chips. 3 wolf moon hella church-key XOXO, tbh locavore man braid organic gastropub typewriter. Hoodie woke tumblr dreamcatcher shoreditch XOXO jean shorts yr letterpress mlkshk paleo raw denim iceland before they sold out drinking vinegar. Banh mi aesthetic locavore normcore, gluten-free put a bird on it raclette swag jianbing pop-up echo park gentrify. Stumptown brooklyn godard tumeric ethical. Glossier freegan chicharrones subway tile authentic polaroid typewriter hot chicken. Thundercats small batch heirloom meggings.
 </p>
 <p>
   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti cum quibusdam eaque, autem porro fuga laudantium culpa beatae laboriosam quos.
 </p>
+
+<h2>Teaching Statement</h2>
 <p>
   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa eaque error quos consequuntur totam, esse commodi magnam dignissimos explicabo modi. Laborum temporibus enim eius quidem eum voluptatum eligendi. Nemo fuga at provident accusantium tempore eligendi alias sed! Provident veritatis adipisci deserunt. Totam repudiandae ducimus nemo aperiam assumenda. Odio quos, quam quod illum reiciendis sapiente doloremque quasi deserunt alias provident! Labore voluptatibus excepturi, ipsum et sint nihil delectus enim, commodi quis!
 </p>

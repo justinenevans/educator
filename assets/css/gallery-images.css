@@ -13,7 +13,12 @@
 }
 
 
-
+.theatre-01 {
+  background-image: url("../../assets/img/about/theatre-01.jpg");
+}
+.fine-arts-01 {
+  background-image: url("../../assets/img/about/fine-arts-01.jpg");
+}
 .music-01 {
   background-image: url("../../assets/img/about/music-01.jpg");
 }

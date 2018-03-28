@@ -16,15 +16,40 @@ permalink: "/about/"
   Media craftswoman.<br />
   Lover of digital design and graphic arts.<br />
   Web designer, illustrator, and research enthusiast.<br />
-  Amateur astronomer, classical flutist, gamer, and terrible cook.</p>
+  Amateur astronomer, classical flutist, gamer, and terrible cook.
+</p>
 
 <div style="text-align: center;">
   <span class="dot"></span> <span class="dot"></span> <span class="dot"></span>
 </div>
 
+<!-- START EDUCATOR -->
+<h3>Educator</h3>
+<p>800 hours Graduate Teaching Assistant, University of Montana<br />
+135 hours Adjunct Professor, University of Montana<br />
+200 hours Community-Based Education</p>
+
+<p>
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore dicta praesentium dolor asperiores nesciunt quod sapiente est minus, architecto corrupti, excepturi hic ipsa, saepe dignissimos similique ullam repudiandae rem voluptate. Ipsa iusto, voluptate doloremque facere expedita, molestias omnis facilis. Adipisci voluptatum, quia alias aut sint totam facere porro aperiam repellat ipsa? Odio ut sint dicta magnam molestias maiores eos impedit natus iste quas perspiciatis voluptas autem, illum qui aperiam labore necessitatibus incidunt, placeat reiciendis facilis iusto reprehenderit. Ad, quisquam, voluptatibus!
+</p>
+<p>
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa eaque error quos consequuntur totam, esse commodi magnam dignissimos explicabo modi.
+</p>
+
+<img src="../assets/img/about/educator-01.jpg" title="" alt="" style="width: 100%" />
+<p class="caption">Teaching about the importance of spay/neuter clinics to summer camp, ages 8-13 years.</p>
+<!-- END EDUCATOR -->
+
+
+<hr />
+
+
+
+<!-- START MEDIA ARTS -->
 <h3>Media Artist</h3>
-<p>BA, Media Arts, Digital Filmmaking</p>
-<p>MFA, Media Arts, Digital Techniques in the Arts</p>
+<p>BA, Media Arts, <i>em.</i> Digital Filmmaking<br />
+MFA, Media Arts, <i>em.</i> Digital Techniques in the Arts</p>
+
 <p>
   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti cum quibusdam eaque, autem porro fuga laudantium culpa beatae laboriosam quos.
 </p>
@@ -36,7 +61,7 @@ permalink: "/about/"
   Sorry, your browser does not support CSS Grid.
 </div>
 
-<section id="media-gallery">
+<section id="media-arts-gallery">
    <div class="grid grid--small">
 
     <a href="https://images.pexels.com/photos/268261/pexels-photo-268261.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" title="Title for Image 1" class="magnific-image item item--small image-1">
@@ -67,36 +92,111 @@ permalink: "/about/"
 
    </div>
 </section>
-
+<!-- END MEDIA ARTS -->
 
 
 <hr />
 
 
+<!-- START THEATRE -->
 <h3>Theatre Technician</h3>
-<p>BA, Theatre, Em Technical Theare</p>
+<p>BA, Theatre, <i>em.</i> Design/Technology</p>
+
 <p>
   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore dicta praesentium dolor asperiores nesciunt quod sapiente est minus, architecto corrupti, excepturi hic ipsa, saepe dignissimos similique ullam repudiandae rem voluptate. Ipsa iusto, voluptate doloremque facere expedita, molestias omnis facilis. Adipisci voluptatum, quia alias aut sint totam facere porro aperiam repellat ipsa? Odio ut sint dicta magnam molestias maiores eos impedit natus iste quas perspiciatis voluptas autem, illum qui aperiam labore necessitatibus incidunt, placeat reiciendis facilis iusto reprehenderit. Ad, quisquam, voluptatibus!
 </p>
-<img src="../assets/img/about/theatre-01.png" width="100%" />
+
+<div class="message">
+  Sorry, your browser does not support CSS Grid.
+</div>
+
+<section id="theatre-gallery">
+   <div class="grid grid--small">
+
+    <a href="../assets/img/about/theatre-01.jpg" title="<cite>Gypsy</cite>, dir. Teresa Waldof, costume designer Wendy Stark Prey; Costume Technician" class="magnific-image item item--small theatre-01">
+      <div class="item__details">
+        <!--First Item--><i class="fa fa-camera" aria-hidden="true"></i>
+      </div>
+    </a>
+
+       <a href="https://images.pexels.com/photos/93052/pexels-photo-93052.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" title="Title for Image 2" class="magnific-image item item--small image-2">
+      <div class="item__details">
+        <!--Second Item--><i class="fa fa-camera" aria-hidden="true"></i>
+      </div>
+    </a>
+
+    <a href="https://images.pexels.com/photos/268261/pexels-photo-268261.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" title="Title for Image 1" class="magnific-image item item--small image-1">
+      <div class="item__details">
+        <!--Third Item--><i class="fa fa-camera" aria-hidden="true"></i>
+      </div>
+    </a>
+
+    <a href="https://vimeo.com/210558372" title="Sunset View From Up Above" class="magnific-vimeo cap-video item item--small image-3">
+      <div class="item__details">
+        <!--Fourth Item--><i class="fa fa-video-camera" aria-hidden="true"></i>
+      </div>
+    </a>
+
+   </div>
+</section>
+<!-- END THEATRE -->
 
 
 <hr />
 
 
+<!-- START FINE ARTS -->
 <h3>Traditional Artist and Historian</h3>
 <p>Minor, Art History and Criticism</p>
+
 <p>
   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero laborum omnis iure cumque veritatis reiciendis, optio ad. Praesentium, illum. Deleniti ab rem laboriosam numquam natus explicabo sit cumque provident maxime.
 </p>
-<img src="../assets/img/about/fine-art-01.png" width="100%" />
+
+<div class="message">
+  Sorry, your browser does not support CSS Grid.
+</div>
+
+<section id="fine-arts-gallery">
+   <div class="grid grid--small">
+
+    <a href="../assets/img/about/fine-arts-01.jpg" title="&quot;Old Kyoto&quot;; Graphite and Charcol" class="magnific-image item item--small fine-arts-01">
+      <div class="item__details">
+        <!--First Item--><i class="fa fa-camera" aria-hidden="true"></i>
+      </div>
+    </a>
+
+       <a href="https://images.pexels.com/photos/93052/pexels-photo-93052.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" title="Title for Image 2" class="magnific-image item item--small image-2">
+      <div class="item__details">
+        <!--Second Item--><i class="fa fa-camera" aria-hidden="true"></i>
+      </div>
+    </a>
+
+    <a href="https://images.pexels.com/photos/268261/pexels-photo-268261.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" title="Title for Image 3" class="magnific-image item item--small image-3">
+      <div class="item__details">
+        <!--Third Item--><i class="fa fa-camera" aria-hidden="true"></i>
+      </div>
+    </a>
+
+    <a href="https://images.pexels.com/photos/268261/pexels-photo-268261.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" title="Title for Image 4" class="magnific-image item item--small image-4">
+      <div class="item__details">
+        <!--Fourth Item--><i class="fa fa-camera" aria-hidden="true"></i>
+      </div>
+    </a>
+
+   </div>
+</section>
+<!-- END FINE ARTS -->
+
 
 
 <hr />
 
 
+
+<!-- START MUSIC -->
 <h3>My Life as an Instrumentalist</h3>
-<p></p>
+<p>Performance and Arragnement</p>
 
 <p>
   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae modi facilis vel distinctio itaque ea, commodi a autem, amet explicabo harum libero vero earum doloremque officiis, dolorum beatae soluta officia dignissimos. Ad odit ab, error illo! Iure numquam recusandae unde dignissimos aspernatur quia neque, voluptatibus ea, iste eaque corporis doloribus.
@@ -146,5 +246,6 @@ permalink: "/about/"
 
    </div>
 </section>
+<!-- END MUSIC -->
 
 <script src="../assets/js/magnific.js"></script>

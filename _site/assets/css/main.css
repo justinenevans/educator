@@ -1534,3 +1534,9 @@ a.newer-posts:hover {
   background-color: #515151;
   margin: 10px;
 }
+
+.caption {
+  font-size: 14px;
+  margin: 5px 0 0 5px;
+  color: #ada8a8;
+}
