@@ -34,6 +34,8 @@ $('.magnific-youtube, .magnific-vimeo, .magnific-audio').magnificPopup({
   }
 });
 
+
+
 // Iframe popups: https://codepen.io/dimsemenov/pen/GtjBb
 $('.open-popup-link').magnificPopup({
   type:'inline',

@@ -1,25 +1,28 @@
-.about-1 {
-  background-image: url("https://images.unsplash.com/photo-1490914327627-9fe8d52f4d90?dpr=2&auto=format&fit=crop&w=1500&h=2250&q=80&cs=tinysrgb&crop=");
+/* --- TEMPLATE --- */
+.image-1 {
+  background-image: url("https://images.pexels.com/photos/268261/pexels-photo-268261.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
 }
-.about-2 {
-  background-image: url("https://images.unsplash.com/photo-1422255198496-21531f12a6e8?dpr=2&auto=format&fit=crop&w=1500&h=996&q=80&cs=tinysrgb&crop=");
+.image-2 {
+  background-image: url("https://images.pexels.com/photos/93052/pexels-photo-93052.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
 }
-.about-3 {
-  background-image: url("https://images.unsplash.com/photo-1476097297040-79e9e1603142?dpr=2&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=");
+.image-3 {
+  background-image: url("https://images.pexels.com/photos/442589/pexels-photo-442589.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
 }
-.about-4 {
-  background-image: url("https://images.unsplash.com/photo-1464652149449-f3b8538144aa?dpr=2&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=");
+.image-4 {
+  background-image: url("https://images.pexels.com/photos/934059/pexels-photo-934059.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
 }
 
-.music-1 {
+
+
+.music-01 {
   background-image: url("../../assets/img/about/music-01.jpg");
 }
-.music-2 {
+.music-02 {
   background-image: url("../../assets/img/about/music-02.jpg");
 }
-.music-3 {
+.music-03 {
   background-image: url("../../assets/img/about/music-03.jpg");
 }
-.music-4 {
+.music-04 {
   background-image: url("../../assets/img/about/music-04.jpg");
 }

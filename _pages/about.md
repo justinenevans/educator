@@ -8,9 +8,9 @@ tags: tag
 permalink: "/about/"
 ---
 
+<link rel="stylesheet" href="https://rawgit.com/dimsemenov/Magnific-Popup/master/dist/magnific-popup.css">
 <link rel="stylesheet" href="../assets/css/gallery.css">
 <link rel="stylesheet" href="../assets/css/gallery-images.css">
-<link rel="stylesheet" href="https://rawgit.com/dimsemenov/Magnific-Popup/master/dist/magnific-popup.css">
 
 <p align="center">
   Media craftswoman.<br />
@@ -33,32 +33,35 @@ permalink: "/about/"
 </p>
 
 <div class="message">
-Sorry, your browser does not support CSS Grid.
+  Sorry, your browser does not support CSS Grid.
 </div>
 
-<section id="gallery-1">
+<section id="media-gallery">
    <div class="grid grid--small">
-    <a href="https://images.unsplash.com/photo-1490914327627-9fe8d52f4d90?dpr=2&auto=format&fit=crop&w=1500&h=2250&q=80&cs=tinysrgb&crop=" title="Example Image" class="magnific item item--small about-1 image">
+
+    <a href="https://images.pexels.com/photos/268261/pexels-photo-268261.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" title="Title for Image 1" class="magnific-image item item--small image-1">
       <div class="item__details">
-        <!--First Item--><i class="fa fa-camera fa-1x" aria-hidden="true"></i>
+        <!--First Item--><i class="fa fa-camera" aria-hidden="true"></i>
       </div>
     </a>
 
-    <a href="https://vimeo.com/169464561" title="Animations" class="magnific-vimeo item item--small about-2 video">
+       <a href="https://images.pexels.com/photos/93052/pexels-photo-93052.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" title="Title for Image 2" class="magnific-image item item--small image-2">
       <div class="item__details">
-        <!--Second Item--><i class="fa fa-video-camera fa-1x" aria-hidden="true"></i>
+        <!--Second Item--><i class="fa fa-camera" aria-hidden="true"></i>
       </div>
     </a>
 
-    <a href="https://images.unsplash.com/photo-1476097297040-79e9e1603142?dpr=2&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=" title="Example Image 2" class="magnific item item--small about-3 image">
+    <a href="https://vimeo.com/210558372" title="Sunset View From Up Above" class="magnific-vimeo cap-video item item--small image-3">
       <div class="item__details">
-        <!--Third Image--><i class="fa fa-globe fa-1x" aria-hidden="true"></i>
+        <!--Third Item--><i class="fa fa-video-camera" aria-hidden="true"></i>
       </div>
     </a>
 
-    <a href="https://images.unsplash.com/photo-1476097297040-79e9e1603142?dpr=2&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=" class="magnific item item--small about-4">
+    <a href="#popup-with-something" class="open-popup-link magnific-audio item item--small image-4">
+
+      </div>
       <div class="item__details">
-        <!--Fourth Image--><i class="fa fa-eye fa-1x" aria-hidden="true"></i>
+        <!--Fourth Item--><i class="fa fa-headphones" aria-hidden="true"></i>
       </div>
     </a>
 
@@ -77,7 +80,9 @@ Sorry, your browser does not support CSS Grid.
 </p>
 <img src="../assets/img/about/theatre-01.png" width="100%" />
 
+
 <hr />
+
 
 <h3>Traditional Artist and Historian</h3>
 <p>Minor, Art History and Criticism</p>
@@ -86,7 +91,9 @@ Sorry, your browser does not support CSS Grid.
 </p>
 <img src="../assets/img/about/fine-art-01.png" width="100%" />
 
+
 <hr />
+
 
 <h3>My Life as an Instrumentalist</h3>
 <p></p>
@@ -95,15 +102,19 @@ Sorry, your browser does not support CSS Grid.
   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae modi facilis vel distinctio itaque ea, commodi a autem, amet explicabo harum libero vero earum doloremque officiis, dolorum beatae soluta officia dignissimos. Ad odit ab, error illo! Iure numquam recusandae unde dignissimos aspernatur quia neque, voluptatibus ea, iste eaque corporis doloribus.
 </p>
 
-<section id="gallery-2">
+<div class="message">
+  Sorry, your browser does not support CSS Grid.
+</div>
+
+<section id="music-gallery">
    <div class="grid grid--small">
-    <a href="../assets/img/about/music-01.jpg" title="Performing Bass Flute with Jordon Plachecki" class="magnific item item--small music-1 image">
+    <a href="../assets/img/about/music-01.jpg" title="Performing Bass Flute with Jordon Plachecki" class="magnific-image item item--small music-01">
       <div class="item__details">
         <!--First Item--><i class="fa fa-camera" aria-hidden="true"></i>
       </div>
     </a>
 
-    <a href="#popup-with-something" class="open-popup-link item item--small music-2">
+    <a href="#popup-with-something" class="open-popup-link magnific-audio item item--small music-02">
       <div id="popup-with-something" class="mfp-hide">
         <div class="some-element">
           <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/420471876&color=%230c9a9a&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
@@ -111,17 +122,17 @@ Sorry, your browser does not support CSS Grid.
         </div>
       </div>
       <div class="item__details">
-        <!--Third Item--><i class="fa fa-headphones" aria-hidden="true"></i>
+        <!--Second Item--><i class="fa fa-headphones" aria-hidden="true"></i>
       </div>
     </a>
 
-    <a href="https://vimeo.com/96359735" title="<cite>Ebrio</cite>, dir. Paul John Alvarez (2008); Sound Design, Audio Arrangement, Performance" class="magnific-vimeo item item--small music-3 video">
+    <a href="https://vimeo.com/96359735" title="<cite>Ebrio</cite>, dir. Paul John Alvarez (2008); Sound Design, Audio Arrangement, Performance" class="magnific-vimeo cap-video item item--small music-03">
       <div class="item__details">
         <!--Second Item--><i class="fa fa-video-camera" aria-hidden="true"></i>
       </div>
     </a>
 
-    <a href="#popup-with-something" class="open-popup-link item item--small music-4 audio">
+    <a href="#popup-with-something" class="open-popup-link magnific-audio item item--small music-04">
       <div id="popup-with-something" class="mfp-hide">
         <div class="some-element">
           <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/420471876&color=%230c9a9a&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
@@ -135,3 +146,5 @@ Sorry, your browser does not support CSS Grid.
 
    </div>
 </section>
+
+<script src="../assets/js/magnific.js"></script>
