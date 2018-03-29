@@ -217,9 +217,9 @@ MFA, Media Arts, <i>em.</i> Digital Techniques in the Arts</p>
       </div>
     </a>
 
-    <a href="#popup-with-something" class="open-popup-link magnific-audio item item--small music-02">
-      <div id="popup-with-something" class="mfp-hide">
-        <div class="some-element">
+    <a href="#soundcloud-doppler" class="open-popup-link magnific-audio item item--small music-02">
+      <div id="soundcloud-doppler" class="popup-iframe mfp-hide">
+        <div class="iframe-element">
           <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/209029946&color=%23bc8fc7&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
           <div class="mfp-title"><cite>Fantaisie Pastorale Hongroise, Op.26</cite>, comp. Franz Doppler (1870); Flute (Unaccompanied), Movement 1</div>
         </div>
@@ -231,19 +231,19 @@ MFA, Media Arts, <i>em.</i> Digital Techniques in the Arts</p>
 
     <a href="https://vimeo.com/96359735" title="<cite>Ebrio</cite>, dir. Paul John Alvarez (2008); Sound Design, Audio Arrangement, Performance" class="magnific-vimeo cap-video item item--small music-03">
       <div class="item__details">
-        <!--Second Item--><i class="fa fa-video-camera" aria-hidden="true"></i>
+        <!--Third Item--><i class="fa fa-video-camera" aria-hidden="true"></i>
       </div>
     </a>
 
-    <a href="#popup-with-something" class="open-popup-link magnific-audio item item--small music-04">
-      <div id="popup-with-something" class="mfp-hide">
-        <div class="some-element">
+    <a href="#soundcloud-nishimura" class="open-popup-link magnific-audio item item--small music-04">
+      <div id="soundcloud-nishimura" class="popup-iframe mfp-hide">
+        <div class="iframe-element">
           <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/420471876&color=%230c9a9a&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
           <div class="mfp-title"><cite>Star Ship</cite>, comp. Yukiko Nishimura (2002); Solo Piccoloist</div>
         </div>
       </div>
       <div class="item__details">
-        <!--Third Item--><i class="fa fa-headphones" aria-hidden="true"></i>
+        <!--Fourth Item--><i class="fa fa-headphones" aria-hidden="true"></i>
       </div>
     </a>
 
