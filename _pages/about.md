@@ -12,11 +12,14 @@ permalink: "/about/"
 <link rel="stylesheet" href="../assets/css/gallery.css">
 <link rel="stylesheet" href="../assets/css/gallery-images.css">
 
+<img src="../assets/img/profiles/justine-evans-photo2.png" title="Justine Evans" alt="image of Justine Evans" style="width: 250px; display: block; margin: auto;" />
+
 <p align="center">
   Media craftswoman.<br />
+  Has two cats and a houseplant.<br />
   Lover of digital design and graphic arts.<br />
   Web designer, illustrator, and research enthusiast.<br />
-  Amateur astronomer, classical flutist, gamer, and terrible cook.
+  Astro-hobbyist, classical flutist, gamer, and horrendous cook.
 </p>
 
 <div style="text-align: center;">
@@ -36,7 +39,7 @@ permalink: "/about/"
   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa eaque error quos consequuntur totam, esse commodi magnam dignissimos explicabo modi.
 </p>
 
-<img src="../assets/img/about/educator-01.jpg" title="" alt="" style="width: 100%" />
+<img src="../assets/img/about/educator-01.jpg" title="Title for Image 1" alt="" style="width: 100%;" />
 <p class="caption">Teaching about the importance of spay/neuter clinics to summer camp, ages 8-13 years.</p>
 <!-- END EDUCATOR -->
 
@@ -113,7 +116,7 @@ MFA, Media Arts, <i>em.</i> Digital Techniques in the Arts</p>
 <section id="theatre-gallery">
    <div class="grid grid--small">
 
-    <a href="../assets/img/about/theatre-01.jpg" title="<cite>Gypsy</cite>, dir. Teresa Waldof, costume designer Wendy Stark Prey; Costume Technician" class="magnific-image item item--small theatre-01">
+    <a href="../assets/img/about/theatre-01-full.jpg" title="<cite>Gypsy</cite>, dir. Teresa Waldof, costume designer Wendy Stark Prey; Costume Technician" class="magnific-image item item--small theatre-01">
       <div class="item__details">
         <!--First Item--><i class="fa fa-camera" aria-hidden="true"></i>
       </div>
@@ -125,13 +128,13 @@ MFA, Media Arts, <i>em.</i> Digital Techniques in the Arts</p>
       </div>
     </a>
 
-    <a href="https://images.pexels.com/photos/268261/pexels-photo-268261.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" title="Title for Image 1" class="magnific-image item item--small image-1">
+    <a href="https://images.pexels.com/photos/268261/pexels-photo-268261.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" title="Title for Image 3" class="magnific-image item item--small image-1">
       <div class="item__details">
         <!--Third Item--><i class="fa fa-camera" aria-hidden="true"></i>
       </div>
     </a>
 
-    <a href="https://vimeo.com/210558372" title="Sunset View From Up Above" class="magnific-vimeo cap-video item item--small image-3">
+    <a href="https://www.youtube.com/watch?v=EK6EYT5b34k" title="<cite>Medea</cite>, dir. Deborah Voss; Videographer" class="magnific-youtube cap-video item item--small theatre-04">
       <div class="item__details">
         <!--Fourth Item--><i class="fa fa-video-camera" aria-hidden="true"></i>
       </div>
@@ -217,7 +220,7 @@ MFA, Media Arts, <i>em.</i> Digital Techniques in the Arts</p>
     <a href="#popup-with-something" class="open-popup-link magnific-audio item item--small music-02">
       <div id="popup-with-something" class="mfp-hide">
         <div class="some-element">
-          <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/420471876&color=%230c9a9a&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+          <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/209029946&color=%23bc8fc7&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
           <div class="mfp-title"><cite>Fantaisie Pastorale Hongroise, Op.26</cite>, comp. Franz Doppler (1870); Flute (Unaccompanied), Movement 1</div>
         </div>
       </div>

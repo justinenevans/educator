@@ -12,9 +12,14 @@
   background-image: url("https://images.pexels.com/photos/934059/pexels-photo-934059.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
 }
 
-
+.educator-01 {
+  background-image: url("../../assets/img/about/educator-01.jpg");
+}
 .theatre-01 {
   background-image: url("../../assets/img/about/theatre-01.jpg");
+}
+.theatre-04 {
+  background-image: url("../../assets/img/about/theatre-04.jpg");
 }
 .fine-arts-01 {
   background-image: url("../../assets/img/about/fine-arts-01.jpg");
