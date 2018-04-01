@@ -204,5 +204,4 @@ section {
     overflow-y: scroll;
     padding: 25px;
     height: 100%;
-    /*max-width: calc(100% - 50px);*/
  }

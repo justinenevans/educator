@@ -108,7 +108,6 @@ MFA, Media Arts, <i>em.</i> Digital Techniques in the Arts</p>
               <blockquote>Nullam volutpat venenatis vehicula. Pellentesque suscipit fermentum leo, at lacinia velit sollicitudin nec.</blockquote>
               <p>ulla commodo ex metus, a viverra dui volutpat sagittis. Sed non iaculis tortor. Nunc quis nibh vitae tellus iaculis efficitur. Sed non viverra ligula. Vestibulum eu cursus purus. In placerat posuere purus, quis luctus metus elementum sit amet. Cras ultrices consectetur metus. Sed pretium tempus volutpat. Nulla convallis ac orci sed pharetra. Donec tincidunt purus vel mauris accumsan fermentum. Maecenas faucibus, nisl quis varius volutpat, nibh odio dignissim est, quis laoreet eros quam sit amet nunc. Quisque vitae nibh metus. </p>
         </div>
-        <div class="mfp-title"><cite>nature_bump_000</cite>, comp. invention (2014)</div>
       </div>
       <div class="item__details">
         <!--Fifth Item--><i class="fa fa-book" aria-hidden="true"></i>
