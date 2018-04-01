@@ -5,7 +5,7 @@ $('.magnific-image').magnificPopup({
   mainClass: 'mfp-fade'
 });
 
-$('.magnific-youtube, .magnific-vimeo, .magnific-audio').magnificPopup({
+$('.magnific-youtube, .magnific-vimeo, .magnific-audio, .open-popup-link').magnificPopup({
   disableOn: 700,
   type: 'iframe',
   mainClass: 'mfp-fade',
@@ -33,7 +33,6 @@ $('.magnific-youtube, .magnific-vimeo, .magnific-audio').magnificPopup({
     }
   }
 });
-
 
 
 // Iframe popups: https://codepen.io/dimsemenov/pen/GtjBb

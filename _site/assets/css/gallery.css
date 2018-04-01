@@ -170,7 +170,8 @@ section {
 
  .custom-popup-class .mfp-content {
    width: 100%;
-   max-width: 700px;
+   max-width: 900px;
+   height: 80%;
  }
 
  .popup-iframe {
@@ -182,21 +183,26 @@ section {
  }
 
  .popup-iframe .mfp-close {
-   top: calc(20% - 10px);
    color: #FFF;
    text-align: right;
    right: 1px;
+   top: -44px;
+   /* To center on page: */
+   /* top: calc(20% - 10px); */
  }
 
-.iframe-element {
-  background: #EBE8E8;
-  position: absolute;
-  width: 100%;
-  height: auto;
-  box-shadow: 0 0 8px rgba(0, 0, 0, .6);
-  top:50%;
-  left:50%;
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -webkit-transform: translate(-50%,-50%);
-  transform: translate(-50%,-50%);
-}
+ .iframe-element {
+   background: #EBE8E8;
+   position: absolute;
+   top: -3px;
+   left: 0;
+   width: 100%;
+   height: auto;
+   box-shadow: 0 0 8px rgba(0, 0, 0, .6);
+ }
+ .written {
+    overflow-y: scroll;
+    padding: 25px;
+    height: 100%;
+    /*max-width: calc(100% - 50px);*/
+ }
