@@ -3,11 +3,7 @@
    color: #515151;
 }*/
 
-/* ------------------------
-|   Gallery Flexbox Grid   |
- ------------------------ */
-
-/*section {
+section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -134,7 +130,7 @@
   padding: 15px;
   /*color: #444;
   background: #fff;*/
-  /*text-transform: lowercase;*/
+  text-transform: lowercase;
   letter-spacing: 1px;
   /*color: #828282;*/
   color: #FFF;
