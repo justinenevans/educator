@@ -12,7 +12,7 @@ permalink: "/about/"
 <link rel="stylesheet" href="../assets/css/gallery.css">
 <link rel="stylesheet" href="../assets/css/gallery-images.css">
 
-<img src="../assets/img/profiles/justine-evans-photo2.png" title="Justine Evans" alt="image of Justine Evans" style="width: 250px; display: block; margin: auto;" />
+<img src="../assets/img/profiles/justine-evans-photo2.png" title="Justine Evans" alt="image of Justine Evans" style="max-width: 250px; width: 100%; display: block; margin: auto;" />
 
 <p align="center">
   Media craftswoman.<br />
@@ -272,4 +272,4 @@ MFA, Media Arts, <i>em.</i> Digital Techniques in the Arts</p>
 </section>
 <!-- END MUSIC -->
 
-<script src="../assets/js/magnific.js"></script>
+<!--<script src="../assets/js/magnific.js"></script>-->
