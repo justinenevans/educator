@@ -8,9 +8,9 @@ tags: tag
 permalink: "/about/"
 ---
 
-<!--<link rel="stylesheet" href="https://rawgit.com/dimsemenov/Magnific-Popup/master/dist/magnific-popup.css">-->
+<!--<link rel="stylesheet" href="https://rawgit.com/dimsemenov/Magnific-Popup/master/dist/magnific-popup.css">
 <link rel="stylesheet" href="../assets/css/gallery.css">
-<link rel="stylesheet" href="../assets/css/gallery-images.css">
+<link rel="stylesheet" href="../assets/css/gallery-images.css">-->
 
 <img src="../assets/img/profiles/justine-evans-photo2.png" title="Justine Evans" alt="image of Justine Evans" style="max-width: 250px; width: 100%; display: block; margin: auto;" />
 
