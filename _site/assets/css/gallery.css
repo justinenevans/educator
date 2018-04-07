@@ -1,35 +1,20 @@
-@import url('https://fonts.googleapis.com/css?family=Lato');
-@import url('https://fonts.googleapis.com/css?family=Arvo');
-
 body {
    font-family: 'Lato', sans-serif;
    color: #515151;
-   background-color: #f1e7b0;
-   margin: 3rem;
-}
-h1, h2, .item__details:before {
-   font-family: 'Arvo', sans-serif;
 }
 
-
-/* --------------------------------------------------
-|   Gallery Flexbox Grid                             |
-|   Original: https://codepen.io/ramenhog/pen/MpORPa |
- ------------------------------------------------- */
-
-section {
-  display: -webkit-box;
-  display: -ms-flexbox;
+body,
+html {
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
 @supports (display: grid) {
-  section {
+  body,
+  html {
     display: block;
   }
 }
@@ -47,17 +32,17 @@ section {
   }
 }
 
-.section {
+.gallery {
   display: none;
   padding: 2rem;
 }
 @media screen and (min-width: 768px) {
-  .section {
+  .gallery {
     padding: 4rem;
   }
 }
 @supports (display: grid) {
-  .section {
+  .gallery {
     display: block;
   }
 }
@@ -69,43 +54,29 @@ section {
   grid-auto-rows: 150px;
   grid-auto-flow: row dense;
 }
-.grid--small {
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-}
+
 .item {
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-end;
+  box-sizing: border-box;
+   /*///////*/
   background: #0c9a9a;
   color: #fff;
   grid-column-start: auto;
   grid-row-start: auto;
-  color: #fff;
   background-color: teal;
   background-size: cover;
   background-position: center;
   -webkit-box-shadow: -2px 2px 10px 0px rgba(68, 68, 68, 0.4);
           box-shadow: -2px 2px 10px 0px rgba(68, 68, 68, 0.4);
   -webkit-transition: -webkit-transform 0.3s ease-in-out;
-  transition: -webkit-transform 0.3s ease-in-out;
-  transition: transform 0.3s ease-in-out;
-  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+          transition: -webkit-transform 0.3s ease-in-out;
+          transition: transform 0.3s ease-in-out;
+          transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
   cursor: pointer;
   counter-increment: item-counter;
-
-   /* Delete to remove b/w > color feature */
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-          filter: grayscale(100%);
 }
 .item:after {
   content: '';
@@ -115,15 +86,11 @@ section {
   background-color: black;
   opacity: 0.3;
   -webkit-transition: opacity 0.3s ease-in-out;
-  transition: opacity 0.3s ease-in-out;
+          transition: opacity 0.3s ease-in-out;
 }
 .item:hover {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
-
-   /* Delete to remove b/w > color feature */
-  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
-          filter: grayscale(0%);
 }
 .item:hover:after {
   opacity: 0;
@@ -150,92 +117,23 @@ section {
   position: relative;
   z-index: 1;
   padding: 15px;
-  color: #444;
+
+  /* For text-titles w/ Counter:
   background: #fff;
   text-transform: lowercase;
   letter-spacing: 1px;
-  color: #828282;
+  color: #828282; */
+
+  /* For icons: */
+  color: #fff;
+  font-size: 1.1rem;
 }
 .item__details:before {
-  content: counter(item-counter);
+  /* Fort text-titles w/ Counter:
+  content: counter(item-counter); */
+  content: '';
   font-weight: bold;
   font-size: 1.1rem;
   padding-right: 0.5em;
   color: #444;
-  font-family: 'Arvo', sans-serif;
-}
-
-.thumbnail {
-  max-width: 40%;
-}
-
-
-
-/* ------------------------------------------------
-|   Lightbox-1, no JS                              |
-|   Original: https://codepen.io/gschier/pen/HCoqh |
- ------------------------------------------------- */
-
-.lightbox-1 {
-	/** Default lightbox to hidden */
-	display: none;
-
-	/** Position and style */
-	position: fixed;
-	z-index: 999;
-	width: 100%;
-	height: 100%;
-	text-align: center;
-	top: 0;
-	left: 0;
-	background: rgba(0,0,0,0.8);
-}
-
-.lightbox-1 img, iframe {
-	/** Pad the lightbox image */
-	max-width: 70%;
-	max-height: 80%;
-	margin-top: 2%;
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   -ms-transform: translateX(-50%) translateY(-50%);
-      -webkit-transform: translate(-50%,-50%);
-   transform: translate(-50%,-50%);
-}
-
-.lightbox-1:target {
-	/** Remove default browser outline */
-	outline: none;
-
-	/** Unhide lightbox **/
-	display: block;
-}
-
-
-
-/* --------------------
-|   Thumbnail Images   |
- -------------------- */
-
-.image-1 {
-  background-image: url("https://images.pexels.com/photos/268261/pexels-photo-268261.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-}
-.image-2 {
-  background-image: url("https://images.pexels.com/photos/93052/pexels-photo-93052.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-}
-.image-3 {
-  background-image: url("https://images.pexels.com/photos/442589/pexels-photo-442589.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-}
-.image-4 {
-  background-image: url("https://images.pexels.com/photos/934059/pexels-photo-934059.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
-}
-.image-5 {
-  background-image: url("https://images.pexels.com/photos/139321/pexels-photo-139321.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-}
-.image-6 {
-  background-image: url("https://images.pexels.com/photos/2990/vintage-old-film.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-}
-.image-7 {
-  background-image: url("https://images.pexels.com/photos/594388/vinyl-record-player-retro-594388.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
 }
