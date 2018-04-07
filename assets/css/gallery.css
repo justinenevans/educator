@@ -40,11 +40,11 @@ body {
 
  .gallery {
    display: none;
-   /*padding: 2rem;*/
+   padding: 2rem;
  }
  @media screen and (min-width: 768px) {
    .gallery {
-     /*padding: 4rem;*/
+     padding: 4rem;
    }
  }
  @supports (display: grid) {
@@ -60,6 +60,10 @@ body {
    grid-auto-rows: 150px;
    grid-auto-flow: row dense;
  }
+ .grid--small {
+   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+ }
+
 
  .item {
    position: relative;
