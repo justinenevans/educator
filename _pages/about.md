@@ -20,42 +20,42 @@ permalink: "/about/"
   Sorry, your browser does not support CSS Grid.
 </div>
 
-<section id="nature-gallery" class="gallery">
+<section id="nature-gallery" class="flex-block gallery">
   <h1>Nature Gallery</h1>
   <div class="grid">
 
-     <a href="https://images.pexels.com/photos/268261/pexels-photo-268261.jpeg" title="Title for Image 1" class="image-1 item item--small">
+     <a href="https://images.pexels.com/photos/268261/pexels-photo-268261.jpeg" title="Title for Image 1" id="image-1" class="item item--small">
         <div class="item__details">
            <!--First Item--><i class="fa fa-camera" aria-hidden="true"></i>
         </div>
      </a>
 
-     <a href="https://images.pexels.com/photos/93052/pexels-photo-93052.jpeg" title="Title for Image 2" class="image-2 item item--small">
+     <a href="https://images.pexels.com/photos/93052/pexels-photo-93052.jpeg" title="Title for Image 2" id="image-2" class="item item--small">
         <div class="item__details">
            <!--Second Item--><i class="fa fa-camera" aria-hidden="true"></i>
         </div>
      </a>
 
-     <a href="https://vimeo.com/210558372" title="Sunset View From Up Above" class="image-3 item item--small">
+     <a href="https://vimeo.com/210558372" title="Sunset View From Up Above" id="image-3" class="item item--small">
         <div class="item__details">
            <!--Third Item--><i class="fa fa-video-camera" aria-hidden="true"></i>
         </div>
      </a>
 
-     <a href="https://images.pexels.com/photos/268261/pexels-photo-268261.jpeg" title="Title for Image 1" class="image-4 item item--small">
+     <a href="https://images.pexels.com/photos/268261/pexels-photo-268261.jpeg" title="Title for Image 4" id="image-4" class="item item--small">
         <div class="item__details">
-           <!--Fourth Item--><i class="fa fa-camera" aria-hidden="true"></i>
+           <!--Fourth Item--><i class="fa fa-headphones" aria-hidden="true"></i>
         </div>
      </a>
 
-     <a href="https://images.pexels.com/photos/93052/pexels-photo-93052.jpeg" title="Title for Image 2" class="image-5 item item--small">
+     <a href="https://images.pexels.com/photos/93052/pexels-photo-93052.jpeg" title="Title for Image 5" id="image-5" class="item item--small">
         <div class="item__details">
-           <!--Fifth Item--><i class="fa fa-camera" aria-hidden="true"></i>
+           <!--Fifth Item--><i class="fa fa-book" aria-hidden="true"></i>
         </div>
      </a>
 
   </div>
-</div>
+</section>
 
 
 
