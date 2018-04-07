@@ -21,7 +21,6 @@ permalink: "/about/"
 </div>
 
 <section id="nature-gallery" class="flex-block gallery">
-  <h1>Nature Gallery</h1>
   <div class="grid">
 
      <a href="https://images.pexels.com/photos/268261/pexels-photo-268261.jpeg" title="Title for Image 1" id="image-1" class="item item--small">
