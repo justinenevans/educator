@@ -1,11 +1,11 @@
-// Windowing
+// Window: https://codepen.io/harconst/pen/ogmOZm
 $('.magnific-image').magnificPopup({
   type:'image',
   removalDelay: 300,
   mainClass: 'mfp-fade'
 });
 
-$('.magnific-youtube, .magnific-vimeo, .magnific-audio, .open-popup-link').magnificPopup({
+$('.magnific-video, .magnific-iframe').magnificPopup({
   disableOn: 700,
   type: 'iframe',
   mainClass: 'mfp-fade',
@@ -15,9 +15,20 @@ $('.magnific-youtube, .magnific-vimeo, .magnific-audio, .open-popup-link').magni
 });
 
 
+// Iframe popups: https://codepen.io/dimsemenov/pen/GtjBb
+$('.magnific-iframe').magnificPopup({
+  type:'inline',
+  midClick: true,
+  mainClass: 'custom-popup'
+  // Optionally pass markup without attaching it to DOM
+  /*items: {
+    src: '<div id="popup-with-something" class="mfp-hide"><div class="some-element">Instead of this element you may put anything else and it\'ll scale proportionally (e.g. flash embed object or your custom video player) </div></div>'
+  }*/
+});
 
-// Caption Video
-$('.magnific-youtube, .magnific-vimeo, .magnific-audio').magnificPopup({
+
+// Caption Video/Audio: https://codepen.io/dimsemenov/pen/zjtbr
+$('.magnific-video').magnificPopup({
   type: 'iframe',
 
   iframe: {
@@ -32,16 +43,5 @@ $('.magnific-youtube, .magnific-vimeo, .magnific-audio').magnificPopup({
      values.title = item.el.attr('title');
     }
   }
-});
 
-
-// Iframe popups: https://codepen.io/dimsemenov/pen/GtjBb
-$('.open-popup-link').magnificPopup({
-  type:'inline',
-  midClick: true,
-  mainClass: 'custom-popup-class'
-  // Optionally pass markup without attaching it to DOM
-  /*items: {
-    src: '<div id="popup-with-something" class="mfp-hide"><div class="some-element">Instead of this element you may put anything else and it\'ll scale proportionally (e.g. flash embed object or your custom video player) </div></div>'
-  }*/
 });
