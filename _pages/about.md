@@ -22,7 +22,7 @@ permalink: "/about/"
 
 <section id="nature-gallery" class="flex-block gallery">
   <h1>Nature Gallery</h1>
-  <div class="grid grid-small">
+  <div class="grid">
 
      <a href="https://images.pexels.com/photos/268261/pexels-photo-268261.jpeg" title="Title for Image 1" id="image-1" class="item item--small">
         <div class="item__details">
@@ -36,17 +36,19 @@ permalink: "/about/"
         </div>
      </a>
 
-     <a href="https://vimeo.com/210558372" title="Sunset View From Up Above" id="image-3" class="item item--small">
+     <a href="https://vimeo.com/210558372" title="Sunset View From Up Above" id="image-3" class="item item--medium">
         <div class="item__details">
            <!--Third Item--><i class="fa fa-book" aria-hidden="true"></i>
         </div>
      </a>
 
-
+     <a href="https://images.pexels.com/photos/268261/pexels-photo-268261.jpeg" title="Title for Image 4" id="image-4" class="item item--small">
+        <div class="item__details">
+           <!--Fourth Item--><i class="fa fa-headphones" aria-hidden="true"></i>
+        </div>
+     </a>
 
   </div>
 </section>
-
-
 
 <script src="../assets/js/magnific.js"></script>

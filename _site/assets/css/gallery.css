@@ -38,6 +38,10 @@ body {
    }
  }
 
+ .gallery>h1 {
+   font-size: 1.5rem;
+   margin: 0 0 1.5em;
+ }
  .gallery {
    display: none;
    padding: 2rem;
@@ -60,10 +64,11 @@ body {
    grid-auto-rows: 150px;
    grid-auto-flow: row dense;
  }
- .grid--small {
-   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+ @media screen and (max-width: 400px) {
+   .grid {
+     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+   }
  }
-
 
  .item {
    position: relative;
@@ -80,7 +85,6 @@ body {
    -webkit-box-sizing: border-box;
            box-sizing: border-box;
     /*///////*/
-   background: #0c9a9a;
    color: #fff;
    grid-column-start: auto;
    grid-row-start: auto;
