@@ -2,8 +2,8 @@ title: Hello, I'm Justine.
 description: >
   Onlne educator in the digital arts.
 permalink: ':title/'
-baseurl: "/educator"
-url: "https://justinenevans.github.io"
+# baseurl: "/educator"
+# url: "https://justinenevans.github.io"
 site-twitter:
 
 # Author Settings

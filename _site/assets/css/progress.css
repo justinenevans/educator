@@ -7,26 +7,10 @@ Primary style
   box-sizing: border-box;
 }
 
-/*html {
-  font-size: 62.5%;
-}*/
-
-/*body {
-  font-size: 1.6rem;
-  font-family: inherit;
-  color: #717171;
-  background-color: #ffffff;
-}*/
-
 a {
-  /*color: #2a76e8;*/
   color: #178e94;
   text-decoration: none;
 }
-
-/*img, svg {
-  max-width: 100%;
-}*/
 
 .cd-header {
   height: 140px;
@@ -122,38 +106,18 @@ Articles
 .cd-articles article:last-of-type {
   border-bottom: none;
 }
-/*.cd-articles h1 {
-  margin: .6em 0 .2em;
-  color: #141414;
-  line-height: 1.2;
-  font-size: 2.4rem;
-  font-family: inherit;
-}
-.cd-articles p {
-  padding: 1em 0;
-  line-height: 1.6;
-}
-.cd-articles p:last-of-type {
-  padding-bottom: 0;
-}*/
+
 @media only screen and (min-width: 1100px) {
   .cd-articles {
     width: 970px;
     max-width: none;
     width: 100%;
-    /*padding-right: 320px;*/
     margin-bottom: 5em;
   }
   .cd-articles::before {
     /* never visible - this is used in jQuery to check the current MQ */
     content: 'desktop';
   }
-  /*.cd-articles h1 {
-    font-size: 3.6rem;
-  }
-  .cd-articles p {
-    font-size: 1.8rem;
-  }*/
 }
 
 /* --------------------------------
@@ -166,9 +130,7 @@ Aside
   display: none;
   width: calc(100% + 40px);
   position: absolute;
-  /*left: 0;*/
   left: -20px;
-  /*background-color: #f2f2f2;*/
   background-color: #fbfbfb;
   line-height: 1rem;
 }
@@ -179,7 +141,6 @@ Aside
 .cd-read-more a {
   display: block;
   position: relative;
-  /*padding: 1.6em 1.1em 1.6em 4.3em;*/
   padding: .2em 1.1em .2em 4.3em;
 }
 .cd-read-more a::before, .cd-read-more a::after {
@@ -230,7 +191,6 @@ Aside
   background-color: #d9d9d9;
 }
 .cd-read-more a.reading em {
-  /*color: #2a76e8;*/
   color: #178e94;
 }
 .cd-read-more a.reading svg {
@@ -245,7 +205,6 @@ Aside
 }
 .cd-read-more em {
   display: block;
-  /*font-size: 1.4rem;*/
   font-size: 1rem;
   line-height: 1.2;
   color: #141414;
@@ -290,10 +249,9 @@ Aside
     position: fixed;
     width: calc(100% - 280px);
     max-width: 970px;
-    /*left: 280px;*/
     left: 260px;
     top: 0;
-    border-bottom: 1px solid #178e94;
+    border-bottom: 1px solid $dark-teal;
     -webkit-transform: translate(0px, -2px);
     -ms-transform: translate(0px, -2px);
         transform: translate(0px, -2px);

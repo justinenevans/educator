@@ -43,10 +43,10 @@ permalink: "/about/"
         </div>
      </a>
 
-     <a href="#soundcloud" title="test" id="tile-04" class="item item--small magnific-iframe">
+     <a href="#soundcloud" id="tile-04" class="item item--small magnific-iframe">
         <div id="soundcloud" class="iframe-popup mfp-hide">
            <div class="iframe-element">
-              <iframe id="ifraaame" width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/209029946&color=%23bc8fc7&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+              <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/209029946&color=%23bc8fc7&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
               <div class="mfp-title">&quot;nature_bump_000&quot;, comp. invention (2014)</div>
            </div>
         </div>
@@ -55,11 +55,23 @@ permalink: "/about/"
         </div>
      </a>
 
-     <a href="https://images.pexels.com/photos/395132/pexels-photo-395132.jpeg" title="Title for Tile 5" id="tile-05" class="item item--small">
-        <div class="item__details">
-           <!--Fifth Item--><i class="fa fa-book" aria-hidden="true"></i>
-        </div>
+     <a href="#reading" id="tile-05" class="open-popup-link item item--medium image-5">
+       <div id="extra-item" class="popup-iframe mfp-hide">
+         <div class="iframe-element written">
+               <h2>Additional Content in Iframe</h2>
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+               <img src="https://images.pexels.com/photos/395132/pexels-photo-395132.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="" style="width: 100%;" />
+               <p>Aliquam laoreet arcu id arcu aliquam, sit amet semper velit suscipit. Maecenas nulla neque, efficitur ac porta vel, sagittis sit amet tortor. Quisque volutpat sapien est, at dignissim mi suscipit eu. Integer cursus ac lectus sed lobortis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+               <p>Suspendisse eu ex a sapien hendrerit euismod vel id risus. Etiam rhoncus eu mauris eget sollicitudin. Praesent varius justo at elit egestas porta. Phasellus vestibulum porttitor congue. Aenean sit amet faucibus eros. Sed consequat tristique nisi condimentum dignissim. Nulla dapibus, eros sed tincidunt semper, ipsum ex porttitor libero, at porta massa purus vel nunc. Maecenas lectus elit, cursus id posuere a, dictum eget mauris. Mauris sit amet consectetur est. Integer vitae diam mauris.</p>
+               <blockquote>Nullam volutpat venenatis vehicula. Pellentesque suscipit fermentum leo, at lacinia velit sollicitudin nec.</blockquote>
+               <p>ulla commodo ex metus, a viverra dui volutpat sagittis. Sed non iaculis tortor. Nunc quis nibh vitae tellus iaculis efficitur. Sed non viverra ligula. Vestibulum eu cursus purus. In placerat posuere purus, quis luctus metus elementum sit amet. Cras ultrices consectetur metus. Sed pretium tempus volutpat. Nulla convallis ac orci sed pharetra. Donec tincidunt purus vel mauris accumsan fermentum. Maecenas faucibus, nisl quis varius volutpat, nibh odio dignissim est, quis laoreet eros quam sit amet nunc. Quisque vitae nibh metus. </p>
+         </div>
+       </div>
+       <div class="item__details">
+         <!--Fourth Item--> <i class="fa fa-book" aria-hidden="true"></i>
+       </div>
      </a>
+
 
   </div>
 </section>
